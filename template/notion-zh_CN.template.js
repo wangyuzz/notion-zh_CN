@@ -36,6 +36,7 @@
   routes.setAttribute("data-locale", lang);
   routes.text = JSON.stringify({});
 
+
   function insertMoment() {
     try {
       moment.updateLocale(lang.toLowerCase(), {
